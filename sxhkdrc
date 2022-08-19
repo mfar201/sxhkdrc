@@ -2,3 +2,5 @@ super + shift + m
 	rofi -show emoji
 super + shift + f
 	firefox
+Print
+	flameshot screen
