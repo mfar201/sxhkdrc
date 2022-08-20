@@ -14,3 +14,7 @@ super + shift + KP_Add
 	amixer set Capture 5%+
 super + shift + KP_Subtract
 	amixer set Capture 5%-
+alt + m
+	amixer set Capture nocap
+alt + shift +m
+	amixer set Capture cap 
