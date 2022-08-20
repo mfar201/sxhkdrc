@@ -6,3 +6,11 @@ Print
 	flameshot screen
 super + Print
 	flameshot gui
+super + KP_Add
+	pactl -- set-sink-volume 0 +5%
+super + KP_Subtract
+	pactl -- set-sink-volume 0 -5%
+super + shift + KP_Add
+	amixer set Capture 5%+
+super + shift + KP_Subtract
+	amixer set Capture 5%-
