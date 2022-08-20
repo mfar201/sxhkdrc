@@ -7,14 +7,9 @@ Print
 super + Print
 	flameshot gui
 super + KP_Add
-	pactl -- set-sink-volume 0 +5%
+	/usr/bin/pulseaudio-ctl up
 super + KP_Subtract
-	pactl -- set-sink-volume 0 -5%
-super + shift + KP_Add
-	amixer set Capture 5%+
-super + shift + KP_Subtract
-	amixer set Capture 5%-
-alt + m
-	amixer set Capture nocap
-alt + shift +m
-	amixer set Capture cap 
+	/usr/bin/pulseaudio-ctl down
+alt + m 
+	/usr/bin/pulseaudio-ctl mute-input
+	
