@@ -12,4 +12,21 @@ super + KP_Subtract
 	/usr/bin/pulseaudio-ctl down
 alt + m 
 	/usr/bin/pulseaudio-ctl mute-input
-	
+super + KP_End
+	i3-msg 'workspace 1'
+super + KP_Down
+	i3-msg 'workspace 2'
+super + KP_Next
+	i3-msg 'workspace 3'
+super + KP_Left
+	i3-msg 'workspace 4'
+super + KP_Begin
+	i3-msg 'workspace 5'
+super + KP_Right
+	i3-msg 'workspace 6'
+super + KP_Home
+	i3-msg 'workspace 7'
+super + KP_Up
+	i3-msg 'workspace 8'
+super + KP_Prior
+	i3-msg 'workspace 9'
